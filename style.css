@@ -202,3 +202,67 @@ nav {
     width: 30px;
     height: 30px;
   }
+  @media (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
+  
+    nav {
+      display: flex;
+      border: none;
+      flex-wrap: wrap;
+      border-radius: 0;
+      box-shadow: 2px 2px 10px rgba(255, 170, 131, 0.1);
+      margin-top: 0;
+      top: 0;
+      justify-content: center;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  
+    #hero h1 {
+      font-size: 36px;
+    }
+  
+    #hero p {
+      font-size: 16px;
+      margin: auto 2rem;
+    }
+  
+    .cta-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .project-card {
+      width: 90%;
+    }
+  
+    .experience-item {
+      flex-direction: column;
+      text-align: left;
+      margin: auto 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #hero h1 {
+      font-size: 28px;
+    }
+  
+    #hero p {
+      font-size: 14px;
+    }
+  
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .cta-buttons button {
+      padding: 8px 16px;
+      width: fit-content;
+    }
+  }
