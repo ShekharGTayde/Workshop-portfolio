@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- Portfolio</title>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <a id="home" onclick="changeColor(this)" href="#">Home</a>
+            <a onclick="changeColor(this)" href="#about">About</a>
+            <a onclick="changeColor(this)" href="#projects">Projects</a>
+            <a onclick="changeColor(this)" href="#experience">Experience</a>
+          </nav>
+          <section id="hero">
+            <img src="./asset/heroImg.jpg" alt="Profile Picture" />
+            <h1>Shekhar Tayde</h1>
+           
+            <div class="cta-buttons">
+              <button>Get in Touch</button>
+              <button>Download CV</button>
+              <button>Linkedin</button>
+              <button>Github</button>
+
+            </div>
+          </section>
+          <section id="about">
+            <h2>ABOUT ME</h2>
+            <p>
+              Hi, I'm Shekhar, a full-stack developer based in India. I specialize in
+              creating interactive, responsive websites and web applications. I'm
+              passionate about exploring and learning the latest in web development and
+              cloud technologies. My expertise lies in full-stack web development, with a
+              core stack of React, Next.js, Node.js, and MongoDB. I've recently expanded
+              my skills to include cloud platforms (AWS, GCP, Azure) and containerization
+              with Docker.
+            </p>
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <div>
+              <span>Nodejs</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JAVASCRIPT</span>
+            </div>
+          </section>
+          <section id="projects">
+            <div id="project-title">
+              <h2>PROJECTS</h2>
+              <img
+                width="100px"
+                src="https://media.tenor.com/QhRvvwpCdVoAAAAi/rocket.gif"
+                alt="Logo"
+              />
+            </div>
+          
+            <div class="project-flex">
+              <div class="project-card">
+                <img src="./asset/project-thumbnail-1.png" alt="HTML Tutorial" />
+                <div class="project-info">
+                  <h3>POWER OF HTML</h3>
+                  <p>HTML TUTORIAL</p>
+                </div>
+              </div>
+              <div class="project-card">
+                <img src="./asset/project-thumbnail-2.png" alt="CSS Tutorial" />
+                <div class="project-info">
+                  <h3>UNLOCK CSS MAGIC</h3>
+                  <p>CSS TUTORIAL</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="experience">
+            <h2>EXPERIENCE</h2>
+            <div class="experience-item">
+              <div>
+                <h3>
+                  <img src="./asset/search.png" alt="Google Logo" /> Senior Software
+                  Engineer
+                </h3>
+                <p>
+                  As a Senior Software Engineer at Google, I played a pivotal role in
+                  developing innovative solutions for Google's core search algorithms.
+                  Collaborating with a dynamic team of engineers, I contributed to the
+                  enhancement of search accuracy and efficiency, optimizing user
+                  experiences for millions of users worldwide.
+                </p>
+                <p>June 2024 - Sept 2024</p>
+              </div>
+            </div>
+          </section>
+          
+          
+    </div>
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="script.js" defer></script> 
+</body>
+</html>
