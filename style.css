@@ -14,7 +14,7 @@ body, html {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+   
     margin-bottom: 3rem;
 
 }
@@ -175,6 +175,7 @@ nav {
   }
   #experience {
     text-align: left;
+    margin-top: 4rem;
   }
   
   #experience h2 {
